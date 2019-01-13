@@ -12,7 +12,7 @@ Creating an external process using ProcessBuilder class
 * Java에서의 프로세스 생성
   - An instance of JVM
   - 다중 스레드는 지원하지만 process 생성은 지원하지 않는다.
-    => 하나의 JVM(=하나의 프로세스 =하나의 주소 공간)에서 process memory(주소 공간)들을 분리하기 어렵기 때문
+  => 하나의 JVM(=하나의 프로세스 =하나의 주소 공간)에서 process memory(주소 공간)들을 분리하기 어렵기 때문
   - Possible to create a process external to the JVM by using ProcessBuilder class
   ※ ProcessBuilder allows a Java program to specify a OS-native process
     (such as /usr/bin/ls or C:\\windows\\system32\\mspaint.exe)
